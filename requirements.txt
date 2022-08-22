@@ -1,13 +1,17 @@
 # packaging
 pip>=9
 setuptools>=26
-twine
-wheel>=0.29
+#twine
+#wheel>=0.29
 
 # data science
 numpy
 pandas
 scikit-learn
+scipy.stats
+matplotlib
+seaborn
+#tensorflow
 
 # tests/linter
 black
@@ -19,8 +23,8 @@ yapf
 # API
 gcsfs
 google-cloud-storage
-mlflow
-s3fs
+#mlflow
+#s3fs
 
 # utilities
 six>=1.14
