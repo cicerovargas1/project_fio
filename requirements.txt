@@ -8,10 +8,10 @@ setuptools>=26
 numpy
 pandas
 scikit-learn
-scipy.stats
+scipy
 matplotlib
 seaborn
-#tensorflow
+tensorflow
 
 # tests/linter
 black
